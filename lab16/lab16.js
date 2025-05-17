@@ -5,7 +5,7 @@ import express from 'express';
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const TELEGRAM_API_URL = 'https://api.telegram.org/bot7798847789:AAE9VGOaXQx77YjlHF7wAG1poqUHJizN_F8'; // Замените на ваш token
+const TELEGRAM_API_URL = 'https://api.telegram.org/bot7798847789:AAE9VGOaXQx77YjlHF7wAG1poqUHJizN_F8'; 
 const LONG_POLL_URL = `${TELEGRAM_API_URL}/getUpdates`;
 
 let lastUpdateId = 0;
